@@ -55,7 +55,7 @@ const About = () => {
             </p>
             <p className="text-lg text-gray-600 mb-8 leading-relaxed">
               We&apos;ve worked exclusively with local businesses for over 5 years, learning what works and 
-              what doesn't. We know that your website isn't just about looking good – it&apos;s about bringing 
+              what doesn&apos;t. We know that your website isn&apos;t just about looking good – it&apos;s about bringing 
               in new customers and growing your business.
             </p>
 
@@ -124,7 +124,7 @@ const About = () => {
             Ready to Work with a Team That Cares?
           </h3>
           <p className="text-xl text-gray-600 mb-8 max-w-2xl mx-auto">
-            We'd love to learn about your business and discuss how we can help you shine online.
+            We&apos;d love to learn about your business and discuss how we can help you shine online.
           </p>
           <Button 
             onClick={scrollToContact}

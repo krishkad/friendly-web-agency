@@ -81,7 +81,7 @@ const FAQ = () => {
         <div className="text-center bg-gradient-to-r from-blue-800 to-blue-400 rounded-2xl p-12 text-white">
           <h3 className="text-3xl font-bold mb-4">Still Have Questions?</h3>
           <p className="text-xl opacity-90 mb-8 max-w-2xl mx-auto">
-            We'd love to answer any specific questions about your business and discuss how we can help you succeed online.
+            We&apos;d love to answer any specific questions about your business and discuss how we can help you succeed online.
           </p>
           <Button 
             onClick={scrollToContact}

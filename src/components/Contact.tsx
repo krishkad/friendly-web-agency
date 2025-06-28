@@ -278,7 +278,7 @@ const Contact = () => {
                   100% Satisfaction Guarantee
                 </h3>
                 <p className="text-sm text-gray-600">
-                  We're not happy until you're happy. We'll work with you until your website exceeds your expectations.
+                  We&apos;re not happy until you&apos;re happy. We&apos;ll work with you until your website exceeds your expectations.
                 </p>
               </CardContent>
             </Card>

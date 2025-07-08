@@ -1,33 +1,37 @@
-
-import React from 'react';
-import { Star } from 'lucide-react';
-import { Card, CardContent } from '@/components/ui/card';
+import React from "react";
+import { Star } from "lucide-react";
+import { Card, CardContent } from "@/components/ui/card";
 
 const Testimonials = () => {
   const testimonials = [
     {
-      name: 'Sarah Chen',
-      business: 'The Coffee Corner',
-      type: 'Local Cafe',
-      content: 'ShineSites transformed our online presence completely. Our new website is beautiful and we\'ve seen a 40% increase in online orders. The team was professional and really understood our needs as a small cafe.',
+      name: "53 Pixels",
+      business: "Marketing Agency",
+      type: "Marketing Agency",
+      content:
+        "Working with FWA (friendlywebagency.com) was a great experience. They quickly understood our vision and delivered a clean, professional, and user-friendly website. Their creativity, responsiveness, and attention to detail truly stood out. Highly recommended!",
       rating: 5,
-      image: 'https://images.unsplash.com/photo-1494790108755-2616b612b786?ixlib=rb-4.0.3&auto=format&fit=crop&w=150&q=80'
+      image: "/53-pixels.jpeg",
     },
     {
-      name: 'Dr. Michael Rodriguez',
-      business: 'Coastal Family Dental',
-      type: 'Dental Practice',
-      content: 'The new website has made booking appointments so much easier for our patients. We\'ve had 45% more online appointment requests since launch. Highly recommend ShineSites to any healthcare practice.',
+      name: "Mr. Satish",
+      business: "Glamping resort pawna",
+      type: "Dental Practice",
+      content:
+        "FWA brought our Pawna camping experience to life online. They didn’t just build a site—they captured our vibe. Smooth bookings, stunning visuals, and a feel that truly reflects our place. Couldn’t have asked for a better partner!",
       rating: 5,
-      image: 'https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?ixlib=rb-4.0.3&auto=format&fit=crop&w=150&q=80'
+      image:
+        "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?ixlib=rb-4.0.3&auto=format&fit=crop&w=150&q=80",
     },
     {
-      name: 'Lisa Thompson',
-      business: 'Serenity Day Spa',
-      type: 'Wellness Spa',
-      content: 'Our website perfectly captures the peaceful, luxurious feeling of our spa. The online booking system has increased our efficiency and we\'re getting 60% more bookings through the website.',
+      name: "Anonymous (on purpose)",
+      business: "Spa",
+      type: "Wellness Spa",
+      content:
+        "Our website perfectly captures the peaceful, luxurious feeling of our spa. The online booking system has increased our efficiency and we're getting 60% more bookings through the website.",
       rating: 5,
-      image: 'https://images.unsplash.com/photo-1438761681033-6461ffad8d80?ixlib=rb-4.0.3&auto=format&fit=crop&w=150&q=80'
+      image:
+        "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?ixlib=rb-4.0.3&auto=format&fit=crop&w=150&q=80",
     },
     // {
     //   name: 'James Wilson',
@@ -57,31 +61,44 @@ const Testimonials = () => {
 
   const renderStars = (rating: number) => {
     return Array.from({ length: 5 }, (_, index) => (
-      <Star 
-        key={index} 
-        size={16} 
-        className={index < rating ? 'text-yellow-400 fill-yellow-400' : 'text-gray-300'} 
+      <Star
+        key={index}
+        size={16}
+        className={
+          index < rating ? "text-yellow-400 fill-yellow-400" : "text-gray-300"
+        }
       />
     ));
   };
 
   return (
-    <section id="testimonials" className="py-20 bg-gradient-to-br from-slate-50 to-blue-50">
+    <section
+      id="testimonials"
+      className="py-20 bg-gradient-to-br from-slate-50 to-blue-50"
+    >
       <div className="container mx-auto px-4">
         <div className="text-center mb-16">
-          <span className="text-orange-500 font-semibold text-lg">Client Testimonials</span>
+          <span className="text-orange-500 font-semibold text-lg">
+            Client Testimonials
+          </span>
           <h2 className="text-4xl md:text-5xl font-bold text-gray-900 mt-2 mb-6">
             What Local Business Owners
-            <span className="text-blue-800 block">Say About Working With Us</span>
+            <span className="text-blue-800 block">
+              Say About Working With Us
+            </span>
           </h2>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-            Real feedback from real business owners who have seen real results from their new websites.
+            Real feedback from real business owners who have seen real results
+            from their new websites.
           </p>
         </div>
 
         <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8 mb-16">
           {testimonials.map((testimonial, index) => (
-            <Card key={index} className="border-0 shadow-lg hover:shadow-xl transition-all duration-300 hover:-translate-y-1 p-0">
+            <Card
+              key={index}
+              className="border-0 shadow-lg hover:shadow-xl transition-all duration-300 hover:-translate-y-1 p-0"
+            >
               <CardContent className="p-8">
                 {/* Rating */}
                 <div className="flex items-center mb-4">
@@ -95,15 +112,21 @@ const Testimonials = () => {
 
                 {/* Client Info */}
                 <div className="flex items-center space-x-4">
-                  <img 
+                  <img
                     src={testimonial.image}
                     alt={testimonial.name}
                     className="w-12 h-12 rounded-full object-cover"
                   />
                   <div>
-                    <div className="font-bold text-gray-900">{testimonial.name}</div>
-                    <div className="text-sm text-gray-600">{testimonial.business}</div>
-                    <div className="text-xs text-accent font-medium">{testimonial.type}</div>
+                    <div className="font-bold text-gray-900">
+                      {testimonial.name}
+                    </div>
+                    <div className="text-sm text-gray-600">
+                      {testimonial.business}
+                    </div>
+                    <div className="text-xs text-accent font-medium">
+                      {testimonial.type}
+                    </div>
                   </div>
                 </div>
               </CardContent>

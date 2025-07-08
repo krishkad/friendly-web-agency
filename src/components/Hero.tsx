@@ -19,7 +19,7 @@ const Hero = () => {
   return (
     <section
       id="home"
-      className="pt-36 sm:pt-24 pb-16 bg-gradient-to-br from-slate-50 to-blue-50 min-h-screen flex items-center"
+      className="pt-24 pb-16 bg-gradient-to-br from-slate-50 to-blue-50 min-h-screen flex items-center"
     >
       <div className="max-w-[1444px] mx-auto px-6">
         <div className="grid lg:grid-cols-2 gap-12 items-center">

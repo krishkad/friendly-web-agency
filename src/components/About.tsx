@@ -25,12 +25,12 @@ const About = () => {
     }
   ];
 
-  const teamStats = [
-    { number: '5+', label: 'Years Experience' },
-    { number: '50+', label: 'Happy Clients' },
-    { number: '100+', label: 'Websites Built' },
-    { number: '24/7', label: 'Support Available' }
-  ];
+  // const teamStats = [
+  //   { number: '5+', label: 'Years Experience' },
+  //   { number: '50+', label: 'Happy Clients' },
+  //   { number: '100+', label: 'Websites Built' },
+  //   { number: '24/7', label: 'Support Available' }
+  // ];
 
   const scrollToContact = () => {
     const element = document.querySelector('#contact');

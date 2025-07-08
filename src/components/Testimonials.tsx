@@ -29,30 +29,30 @@ const Testimonials = () => {
       rating: 5,
       image: 'https://images.unsplash.com/photo-1438761681033-6461ffad8d80?ixlib=rb-4.0.3&auto=format&fit=crop&w=150&q=80'
     },
-    {
-      name: 'James Wilson',
-      business: 'Mountain View Resort',
-      type: 'Boutique Resort',
-      content: 'The website showcases our resort beautifully and the integrated booking system has increased our direct bookings by 50%. ShineSites delivered exactly what we needed to compete with the big hotel chains.',
-      rating: 5,
-      image: 'https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?ixlib=rb-4.0.3&auto=format&fit=crop&w=150&q=80'
-    },
-    {
-      name: 'Maria Gonzalez',
-      business: 'Artisan Hair Studio',
-      type: 'Beauty Salon',
-      content: 'The portfolio gallery on our new website has been amazing for showing our work. We\'ve had a 55% increase in new clients and the online booking saves us so much time. Thank you ShineSites!',
-      rating: 5,
-      image: 'https://images.unsplash.com/photo-1544005313-94ddf0286df2?ixlib=rb-4.0.3&auto=format&fit=crop&w=150&q=80'
-    },
-    {
-      name: 'Tom Bradley',
-      business: 'Urban Fitness Studio',
-      type: 'Fitness Center',
-      content: 'Our members love the new class scheduling system and the website really shows the energy of our studio. Membership has grown 35% since we launched. ShineSites understood our brand perfectly.',
-      rating: 5,
-      image: 'https://images.unsplash.com/photo-1500648767791-00dcc994a43e?ixlib=rb-4.0.3&auto=format&fit=crop&w=150&q=80'
-    }
+    // {
+    //   name: 'James Wilson',
+    //   business: 'Mountain View Resort',
+    //   type: 'Boutique Resort',
+    //   content: 'The website showcases our resort beautifully and the integrated booking system has increased our direct bookings by 50%. ShineSites delivered exactly what we needed to compete with the big hotel chains.',
+    //   rating: 5,
+    //   image: 'https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?ixlib=rb-4.0.3&auto=format&fit=crop&w=150&q=80'
+    // },
+    // {
+    //   name: 'Maria Gonzalez',
+    //   business: 'Artisan Hair Studio',
+    //   type: 'Beauty Salon',
+    //   content: 'The portfolio gallery on our new website has been amazing for showing our work. We\'ve had a 55% increase in new clients and the online booking saves us so much time. Thank you ShineSites!',
+    //   rating: 5,
+    //   image: 'https://images.unsplash.com/photo-1544005313-94ddf0286df2?ixlib=rb-4.0.3&auto=format&fit=crop&w=150&q=80'
+    // },
+    // {
+    //   name: 'Tom Bradley',
+    //   business: 'Urban Fitness Studio',
+    //   type: 'Fitness Center',
+    //   content: 'Our members love the new class scheduling system and the website really shows the energy of our studio. Membership has grown 35% since we launched. ShineSites understood our brand perfectly.',
+    //   rating: 5,
+    //   image: 'https://images.unsplash.com/photo-1500648767791-00dcc994a43e?ixlib=rb-4.0.3&auto=format&fit=crop&w=150&q=80'
+    // }
   ];
 
   const renderStars = (rating: number) => {
@@ -112,7 +112,7 @@ const Testimonials = () => {
         </div>
 
         {/* Overall Stats */}
-        <div className="bg-white rounded-2xl p-8 shadow-lg">
+        {/* <div className="bg-white rounded-2xl p-8 shadow-lg">
           <div className="grid md:grid-cols-4 gap-8 text-center">
             <div>
               <div className="text-3xl font-bold text-blue-800 mb-2">50+</div>
@@ -131,7 +131,7 @@ const Testimonials = () => {
               <div className="text-gray-600">Would Recommend</div>
             </div>
           </div>
-        </div>
+        </div> */}
       </div>
     </section>
   );

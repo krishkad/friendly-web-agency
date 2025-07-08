@@ -23,7 +23,7 @@ const FAQ = () => {
     },
     {
       question: 'What\'s the average pricing for local business websites?',
-      answer: 'Our websites typically range from $2,500 to $8,000 depending on complexity, features, and customization needs. This includes design, development, mobile optimization, basic SEO, and training. We provide detailed quotes after understanding your specific requirements.'
+      answer: 'Our websites typically range from ₹4,500 to ₹20,000 depending on complexity, features, and customization needs (Hosting and domain is not included). This includes design, development, mobile optimization, basic SEO, and training. We provide detailed quotes after understanding your specific requirements.'
     },
     {
       question: 'Do you provide ongoing support and maintenance?',

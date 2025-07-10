@@ -29,7 +29,7 @@ const Hero = () => {
               <span className="inline-block bg-orange-600/10 text-orange-500 px-4 py-2 rounded-full text-sm font-medium mb-4">
                 Premium Web Development Agency
               </span>
-              <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-gray-900 leading-tight mb-6">
+              <h1 className="text-5xl lg:text-6xl font-bold text-gray-900 leading-tight mb-6">
                Shine Where 
                 <span className="text-blue-800 block">Customers Search</span>
               </h1>
